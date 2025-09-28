@@ -1,6 +1,6 @@
 # Demo
-[YouTube video](https://youtu.be/IYPfDRw8lI4) (Sorry, I found out that this demo is laggy. Please, see the logs below)
-### Logs:
+[YouTube video](https://youtu.be/OaiNx6z6TXI)
+### Logs (the same as in the video):
 - Your username Artem_Mozoilov was mentioned in issue: Test issue #2
 - New assignment in Test issue #2 (3-87): Nobody -> Davyd_Lazarev
 - New assignment in Test issue #2 (3-87): Davyd_Lazarev -> Artem_Mozoilov
@@ -9,27 +9,32 @@
 - New comment from Artem_Mozoilov in Test issue #2: @Artem_Mozoilov
 - New comment from Artem_Mozoilov in Test issue #2: Hi guys!
 
-# Getting started
-## Telegram bot
-- Install Telegram
-- Use @BotFather to create a new bot
-- Retrieve token from the bot
-- Create .env file in the root of the repository or use demo .env file, which is already presented, and add new variable TG_BOT_TOKEN with your token as a value.
-
-## YouTrack
-- Create new permanent token
-- Add new variable in .env file YOUTRACK_TOKEN with your token as a value.
-- Add new variable in .env file YOUTRACK_URL with your YouTrack instance URL as a value (for example: https://testimg.youtrack.cloud)
-
-## Starting the notifications system
-- Run Main.kt and wait until telegram sends first response (check the console)
-- Type /start command to the telegram bot
-Now you will be notified, if something changes.
-
 # Features
-- Track changes in favourite issues
-- Track mentions
-- Creation of issues from the bot
+- Track changes in favourite issues: Update of Priority, Type, State, Assignee fields of the issue will lead to the notification.
+- Track mentions: Even if you don't starred an issue, you will be notified, if you was assigned or unassigned.
+- Creation of issues from the bot: The bot can create issues by specifying the project name and the issue summary.
 
 # Commands
 - /createIssue SUMMARY PROJECT_NAME
+
+# Getting started
+## Telegram bot
+- Install Telegram Client
+- Use @BotFather to create a new bot
+- Retrieve the token of your bot from @BotFather
+
+## YouTrack
+- Create new Permanent Token for your account
+
+## .env configuration
+- Insert your telegram bot token into TG_BOT_TOKEN variable.
+- Insert your YouTrack Permanent Token into YOUTRACK_TOKEN variable.
+- Insert the URL of your YouTrack instance (e.g. https://instance.youtrack.cloud) into YOUTRACK_URL variable.
+
+## Starting the notifications system
+- Download dependencies of the project.
+- Run Main.kt and wait until telegram sends first response (check the console).
+- Send __/start__ command to your telegram bot.
+
+__Now you will be notified, if something changes.__
+
