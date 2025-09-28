@@ -1,5 +1,5 @@
 # Demo
-[YouTube video](https://youtu.be/IYPfDRw8lI4) (Sorry, I found out that this demo is laggy).
+[YouTube video](https://youtu.be/IYPfDRw8lI4) (Sorry, I found out that this demo is laggy. Please, see the logs below)
 ### Logs:
 - Your username Artem_Mozoilov was mentioned in issue: Test issue #2
 - New assignment in Test issue #2 (3-87): Nobody -> Davyd_Lazarev
