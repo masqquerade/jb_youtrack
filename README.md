@@ -1,6 +1,6 @@
 # Demo
 [YouTube video](https://youtu.be/OaiNx6z6TXI)
-### Logs (the same as in the video):
+### Logs:
 - Your username Artem_Mozoilov was mentioned in issue: Test issue #2
 - New assignment in Test issue #2 (3-87): Nobody -> Davyd_Lazarev
 - New assignment in Test issue #2 (3-87): Davyd_Lazarev -> Artem_Mozoilov
