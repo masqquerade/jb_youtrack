@@ -38,3 +38,8 @@
 
 __Now you will be notified, if something changes.__
 
+# Trade-offs & Future Improvements
+- Due to limited time (I pushed my solution in the last 4 minutes) and unfamiliarity with Kotlin and the YouTrack API, I had to use some non-idiomatic and non-clear techniques to get things working quickly,
+- For example, all data classes are stored in one single file (Issue.kt), which is also incorrectly named considering its purposes.
+- With more time, I would refactor the project structure diving the modules more cleanly and idiomatic. For instance, the entry point (main.kt) should not contain message-management logic as it currently does.
+- Initially, I implemented the logic using __/api/notifications__ endpoint, which at first time seemed ideal for retrieving updates all kinds of updates. However, I ran into a problem: it did not allow me to identify the recipient of specific notification. This API appears to function more like a shared notification pool and can only be used with administrator rights.
