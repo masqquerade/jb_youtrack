@@ -24,4 +24,4 @@ Now you will be notified, if something changes.
 - Creation of issues from the bot
 
 # Commands
-- /createIssue <SUMMARY> <PROJECT_NAME>
+- /createIssue SUMMARY PROJECT_NAME
