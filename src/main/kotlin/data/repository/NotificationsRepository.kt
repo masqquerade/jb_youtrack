@@ -115,7 +115,11 @@ class NotificationsRepository(
         val newAssignee = new.customFields.find { it.name == "Assignee" }?.value?.login
 
         if (old == null) {
-            if (!newAssignee.isNullOrEmpty() &&
+            if (newAssignee == null) {
+                return null
+            }
+
+            if (newAssignee.isNotEmpty() &&
                 (newAssignee == username) || new.starred == true) {
                 return ChangeItem("Nobody", newAssignee, new.id, new.summary)
             }
