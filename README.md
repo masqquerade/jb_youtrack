@@ -1,5 +1,13 @@
 # Demo
-[YouTube video](https://youtu.be/IYPfDRw8lI4)
+[YouTube video](https://youtu.be/IYPfDRw8lI4) (Sorry, I found out that this demo is laggy).
+### Logs:
+- Your username Artem_Mozoilov was mentioned in issue: Test issue #2
+- New assignment in Test issue #2 (3-87): Nobody -> Davyd_Lazarev
+- New assignment in Test issue #2 (3-87): Davyd_Lazarev -> Artem_Mozoilov
+- New assignment in Test issue #2 (3-87): Artem_Mozoilov -> admin
+- Your username Artem_Mozoilov was mentioned in issue: Test issue #2
+- New comment from Artem_Mozoilov in Test issue #2: @Artem_Mozoilov
+- New comment from Artem_Mozoilov in Test issue #2: Hi guys!
 
 # Getting started
 ## Telegram bot
