@@ -14,7 +14,7 @@
 - Install Telegram
 - Use @BotFather to create a new bot
 - Retrieve token from the bot
-- Create .env file in the root of the repository and add new variable TG_BOT_TOKEN with your token as a value.
+- Create .env file in the root of the repository or use demo .env file, which is already presented, and add new variable TG_BOT_TOKEN with your token as a value.
 
 ## YouTrack
 - Create new permanent token
